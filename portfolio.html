@@ -14,7 +14,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/mainmin.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+
     <title>Portfolio</title>
   </head>
   <body>
@@ -337,6 +337,26 @@
             </li>
           </ul>
         </div>
+
+        <form class="footer-form" name="user_email_form">
+          <label class="footer-form-label" for="user_email_form">
+            ПІДПИШІТЬСЯ НА РОЗСИЛКУ
+          </label>
+          <div class="footer-form-container">
+            <input
+              class="footer-form-input"
+              type="email"
+              placeholder="E-mail"
+              required
+            />
+            <button class="footer-form-btn" type="submit">
+              Підписатися&nbsp;
+              <svg class="form-icon">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
   </body>
