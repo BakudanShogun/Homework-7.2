@@ -38,6 +38,10 @@
   margin-right: auto;
   margin-top: 35px;
   border: none;
+  & {
+    background-color: var(--focus-color);
+    color: #ffffff;
+  }
 }
 .site-hero {
   background-image: linear-gradient(
@@ -46,8 +50,4 @@
     ),
     url(../images/background-image.png);
   background-color: var(--footer-background-color);
-}
-.hero-button {
-  background-color: var(--focus-color);
-  color: #ffffff;
 }

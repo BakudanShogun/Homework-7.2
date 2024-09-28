@@ -49,15 +49,14 @@
   width: 20px;
   height: 20px;
   fill: rgba(175, 177, 184, 1);
+  &:hover,
+  &:focus {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .icon:hover & {
+    fill: #ffffff;
+  }
 }
-.icon:hover .crew-social-list-icon {
-  fill: #ffffff;
-}
-
 .our-crew__item {
   box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.2);
-}
-.crew-social-list-icon:hover,
-.crew-social-list-icon:focus {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
