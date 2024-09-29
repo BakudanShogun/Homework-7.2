@@ -514,11 +514,11 @@ button {
   border-radius: 3px;
   color: 33, 33, 33, 0.2;
 }
-modal-form-check:checked + .modal-check-icon {
+.modal-form-check:checked + .modal-check-icon {
   background-color: var(--focus-color);
 }
 .modal-form-check:focus + .modal-check-icon {
-  box-shadow: 0 0 0 2px blue;
+  box-shadow: 0 0 0 1px blue;
 }
 
 .modal-form-check-icon {
@@ -695,11 +695,11 @@ modal-form-check:checked + .modal-check-icon {
   border-radius: 3px;
   color: 33, 33, 33, 0.2;
 }
-modal-form-check:checked + .modal-check-icon {
+.modal-form-check:checked + .modal-check-icon {
   background-color: var(--focus-color);
 }
 .modal-form-check:focus + .modal-check-icon {
-  box-shadow: 0 0 0 2px blue;
+  box-shadow: 0 0 0 1px blue;
 }
 
 .modal-form-check-icon {
